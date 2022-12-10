@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WEBSITE</title>
+    </head>
+    <style>
+        body{background-color:black ; margin: 0;}
+form{background-color: black; border-radius:10px; 
+    border-style: solid;
+    font-size: 20px;
+    border-color: black;
+margin:10px;
+color: white;
+background-image: url("2.jpg");
+text-shadow: 0 0 10px black;
+font-size: 25px;}
+input{border-radius: 5px; border-color: black;
+background-color: white;}
+select{border-radius: 5px; border-color: black;}
+h2{border: 4px; border-radius: 10px; 
+margin:0;
+width: 35%;
+color: white;
+text-shadow: 0 0 10px black;}
+input[type=submit] {
+  width: 20%;
+  background-color: white;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 2px;
+  border-style: solid;
+  border-radius: 2;
+  border-color: black;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+input[type=submit]:hover {
+  background-color: lightgray;
+transition: 0.6s;}
+
+  input[type=reset] {
+  width: 20%;
+  background-color: white;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 2px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: black;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+input[type=reset]:hover {
+  background-color: lightgray;
+transition: 0.6s;}
+
+  input[type=checkbox]{
+    width: 15px; height: 15px;
+  }
+
+
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+.topnav a {
+  float:left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  text-shadow: 0 0 10px black;
+  transition: 0.6s;
+}
+
+/* Add a color to the active/current link */s
+.topnav a.active {
+  background-color: white;
+  color: white;
+}
+
+.container{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.center{position: absolute;
+top: 55%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;}
+
+a{text-shadow: 0 0 5px white;}
+    </style>
+    <body>
+        <div class="topnav">
+            <a class="active" href="#home">家<br>(Home)</a>
+            <a href="#news">ニュース<br>(News)</a>
+            <a href="#contact">コンタクト<br>(Contact)</a>
+            <a href="#about">約<br>(About)</a>
+          </div>
+<div class="contain">
+<img src="1.jpg" height="50%" width="100%">    
+<div class="center">
+  <center>
+
+  <h1 style="font-size: 40px;
+  text-shadow: 0 0 5px black;">日本料理屋<br>
+    (JAPANESE RESTAURANT)</h1>
+  </center>
+</div>
+</div>
+          <center>
+<form><br>
+    <h2>テーブル予約<br>
+      (TABLE RESERVATION)</h2><br>
+    
+First Name: <input type="text" required><br><br>
+Last Name: <input type="text"required><br><br>
+Password: <input type="password" required><br><br>
+E-mail: <input type="email" required><br><br>
+Phone Number: <input type="tel" required><br><br>
+Date of reservation: <input type="date" required><br><br>
+Time of reservation: <input type="time" required><br><br>
+Number of People: Adult: <select>
+    <option>0</option>
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+</select>
+Child: <select>
+    <option>0</option>
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+</select><br><br>
+Select course: 
+<input type="checkbox">Lunch 
+<input type="checkbox">Dinner
+
+<br><br>
+<input type="submit" value="Make Reservation"> 
+<input type="reset" value="Clear Form"><br><br>
+<footer>
+Copyright © 2022 by Jay Kalingan Data.All Rights Reserved.
+</footer>
+</form>
+        
+    </body>
+</html>
